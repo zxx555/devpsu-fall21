@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parks Page</title>
+    </head>
+    <body>
+        {%for i in range(0,3) %}
+        <p>{{parks[i].name}} National Park is located in {{parks[i].loc}}. {{parks[i].desc}}</p>
+        {%endfor%}
+    </body>
+</html>
